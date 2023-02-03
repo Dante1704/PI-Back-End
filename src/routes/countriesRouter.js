@@ -46,7 +46,7 @@ router.get('/', async (req, res) => {
 });
 
 
-router.get('/:id', async (req, res) => {
+router.get('/detail/:id', async (req, res) => { // /countries/deatail/:id
     //me traigo el pais que me piden con sus actividades turísticas
     const { id } = req.params; //string
     try {
